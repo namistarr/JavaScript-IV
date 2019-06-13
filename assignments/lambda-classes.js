@@ -99,7 +99,8 @@ const willow = new ProjectManager({
 
   console.log(buffy.name); // Buffy
   console.log(buffy.favSubjects); // Vampires, Clothes, More vampires
-  console.log(giles.catchPhrase); // It is your sacred responsibility
+  console.log(giles.catchPhrase); // It is your sacred responsibility.
   console.log(willow.specialty); // Witchcraft
-  console.log(buffy.speak()); // Hello my name is Buffy, I am from Sunnydale
-  console.log(buffy.PRAssignment('JSIV'));
+  console.log(buffy.speak()); // Hello my name is Buffy, I am from Sunnydale.
+  console.log(buffy.PRAssignment('JSIV')); // Buffy has submitted a PR for JSIV
+  console.log(giles.demo('Vampyrs')); // Today we are learning about Vampyrs.
