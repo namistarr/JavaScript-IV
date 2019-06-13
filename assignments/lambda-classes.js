@@ -1,5 +1,5 @@
 // CODE here for your Lambda Classes
-// CODE here for your Lambda Classes
+
 class Person {
     constructor(baseAttributes){
         this.name = baseAttributes.name;

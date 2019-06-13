@@ -35,7 +35,7 @@ Prototype Refactor
     this.dimensions = gameAttributes.dimensions;
     }
     destroy() {
-        console.log(`${this.name} was removed from the game.`);
+        return `${this.name} was removed from the game.`;
     }
 }
 
@@ -64,7 +64,7 @@ class CharacterStats extends GameObject {
     this.healthPoints = characterAttributes.healthPoints;
     }
     takeDamage() {
-        console.log(`${this.name} took damage.`);
+        return `${this.name} took damage.`;
     }
 }
 
@@ -102,7 +102,7 @@ class CharacterStats extends GameObject {
      this.language = humanoidAttributes.language;
    }
    greet() {
-       console.log(`${this.name} offers a greeting in ${this.language}.`);
+       return `${this.name} offers a greeting in ${this.language}.`;
    }
 }
 
